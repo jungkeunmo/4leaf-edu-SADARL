@@ -1,0 +1,28 @@
+{
+  "name": "4leaf-edu-sadarl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungkeunmo/4leaf-edu-SADARL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungkeunmo/4leaf-edu-SADARL/issues"
+  },
+  "homepage": "https://github.com/jungkeunmo/4leaf-edu-SADARL#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}

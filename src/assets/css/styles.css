@@ -1,0 +1,54 @@
+.box {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box .box__col1 {
+ width: 25%;
+ height: 100%;
+ background: yellow;
+}
+.box .box__col2 {
+ width: 25%;
+ height: 100%;
+ background: violet;
+}
+.box .box__col3 {
+ width: 25%;
+ height: 100%;
+ background: turquoise;
+}
+.box .box__col4 {
+ width: 25%;
+ height: 100%;
+ background: springgreen;
+}
+
+.box .box__col2 .box__col2__sec1 {
+    width: 100%;
+    height: 20%;
+    background: tomato;
+}
+.box .box__col2 .box__col2__sec2 {
+    width: 100%;
+    height: 60%;
+    background: slategrey;
+}
+.box .box__col2 .box__col2__sec3 {
+    width: 100%;
+    height: 20%;
+    background: violet;
+}
+.box .box__col4 .box__col4__sec1 {
+    width: 100%;
+    height: 50%;
+    background: skyblue;
+}
+.box .box__col4 .box__col4__sec2 {
+    width: 100%;
+    height: 50%;
+    background: sienna;
+}
